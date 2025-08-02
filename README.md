@@ -27,7 +27,7 @@ A cloud-based service that provides temporary, on-demand Netcat listeners on AWS
 ## Architecture
 
 <div align="center">
-  <img src="frontend/public/SA.png" alt="System Architecture" width="800"/>
+  <img src="frontend/public/SA.png" alt="System Architecture" width="500"/>
 </div>
 
 ### Frontend (React)
