@@ -2,7 +2,7 @@
 
 A cloud-based service that provides temporary, on-demand Netcat listeners on AWS EC2 instances. Perfect for penetration testing, security research, and network debugging.
 
-## 🚀 Features
+## Features
 
 ### Core Functionality
 - **One-Click Instance Launch**: Deploy AWS EC2 instances with Netcat pre-installed
@@ -24,7 +24,11 @@ A cloud-based service that provides temporary, on-demand Netcat listeners on AWS
 - **Copy-to-Clipboard**: One-click copying of commands and payloads
 - **Floating Windows**: Organized information panels for different tools
 
-## 🏗️ Architecture
+## Architecture
+
+<div align="center">
+  <img src="frontend/public/SA.png" alt="System Architecture" width="800"/>
+</div>
 
 ### Frontend (React)
 - **React.js**: Modern UI framework
@@ -44,7 +48,7 @@ A cloud-based service that provides temporary, on-demand Netcat listeners on AWS
 - **Auto Scaling**: Instance lifecycle management
 - **User Data Scripts**: Automated instance configuration
 
-## 🛠️ Technology Stack
+## Technology Stack
 
 ### Frontend
 - React.js
@@ -66,7 +70,7 @@ A cloud-based service that provides temporary, on-demand Netcat listeners on AWS
 - AWS Security Groups
 - AWS VPC
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 - AWS Account with EC2 permissions
@@ -136,7 +140,7 @@ cd ../frontend
 npm start
 ```
 
-## 🏗️ Terraform Infrastructure
+## Terraform Infrastructure
 
 ### What Terraform Manages
 
@@ -173,7 +177,7 @@ infrastructure/
 - **Auto-cleanup**: Instances automatically terminate to prevent cost overruns
 - **Security-first**: Minimal network exposure with IP-based restrictions
 
-## 🔧 Usage
+## Usage
 
 ### Launching an Instance
 1. Sign in with Google account
@@ -193,7 +197,7 @@ infrastructure/
 - Daily launch limits prevent abuse
 - All network traffic is logged
 
-## 🛡️ Security
+## Security
 
 ### Network Security
 - **IP Whitelisting**: SSH access limited to user's IP
@@ -211,7 +215,7 @@ infrastructure/
 - **VPC Isolation**: Network segmentation
 - **Security Groups**: Fine-grained access control
 
-## 📊 Monitoring
+## Monitoring
 
 ### Instance Monitoring
 - Real-time status updates
@@ -225,7 +229,7 @@ infrastructure/
 - Automatic cleanup
 - Resource usage tracking
 
-## 🚀 Deployment
+## Deployment
 
 ### Production Deployment
 1. Set up AWS credentials
@@ -240,7 +244,7 @@ infrastructure/
 3. Start development servers
 4. Use local Terraform for testing
 
-## 🤝 Contributing
+## Contributing
 
 1. Fork the repository
 2. Create a feature branch
@@ -248,15 +252,15 @@ infrastructure/
 4. Test thoroughly
 5. Submit a pull request
 
-## 📝 License
+## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-## ⚠️ Disclaimer
+## Disclaimer
 
 This tool is intended for legitimate security testing and research purposes only. Users are responsible for complying with all applicable laws and regulations. The authors are not responsible for any misuse of this software.
 
-## 🆘 Support
+## Support
 
 For issues and questions:
 - Create an issue on GitHub
@@ -265,4 +269,4 @@ For issues and questions:
 
 ---
 
-**Built with ❤️ for the security community** 
+**Built with love for the security community** 
